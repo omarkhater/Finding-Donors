@@ -15168,7 +15168,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span><span class="p">,</span> <span class="n">HTML</span>
@@ -15196,9 +15196,9 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Cons&#39;</span><span class="p">,</span> <span class="s1">&#39;Random Forest&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Prone to over fitting&quot;</span>
 <span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Cons&#39;</span><span class="p">,</span> <span class="s1">&#39;Naive Bayes&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Vanishing values due to multiplication of small probabilities&quot;</span>
 
-<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;SVM&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Ability to handle non-linear relationships&quot;</span><span class="o">.</span> 
-<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;Random Forest&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> It can handle categorical features effectively&quot;</span><span class="o">.</span>
-<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;Naive Bayes&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Fast but accurate classifier&quot;</span><span class="o">.</span>
+<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;SVM&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Ability to handle non-linear relationships.&quot;</span> 
+<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;Random Forest&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> It can handle categorical features effectively.&quot;</span>
+<span class="n">Models_Comparison</span><span class="o">.</span><span class="n">at</span><span class="p">[</span><span class="s1">&#39;Candidacy for this data&#39;</span><span class="p">,</span> <span class="s1">&#39;Naive Bayes&#39;</span><span class="p">]</span><span class="o">=</span> <span class="sa">u</span><span class="s2">&quot;</span><span class="se">\u2022</span><span class="s2"> Fast but accurate classifier.&quot;</span>
 
 <span class="n">References</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;https://medium.com/@anuuz.soni/pros-and-cons-of-naive-bayes-classifier-40b67249ae8&#39;</span><span class="p">,</span>
              <span class="s1">&#39;https://data-flair.training/blogs/applications-of-svm/&#39;</span><span class="p">,</span>
@@ -15224,14 +15224,46 @@ It is a ratio of true positives(words classified as spam, and which are actually
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-cyan-intense-fg ansi-bold">  File </span><span class="ansi-green-intense-fg ansi-bold">&#34;&lt;ipython-input-26-b989f64806b9&gt;&#34;</span><span class="ansi-cyan-intense-fg ansi-bold">, line </span><span class="ansi-green-intense-fg ansi-bold">26</span>
-<span class="ansi-yellow-intense-fg ansi-bold">    Models_Comparison.at[&#39;Candidacy for this data&#39;, &#39;SVM&#39;]= u&#34;\u2022 Ability to handle non-linear relationships&#34;.</span>
-<span class="ansi-white-intense-fg ansi-bold">                                                                                                                  ^</span>
-<span class="ansi-red-intense-fg ansi-bold">SyntaxError</span><span class="ansi-red-intense-fg ansi-bold">:</span> invalid syntax
-</pre>
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SVM</th>
+      <th>Random Forest</th>
+      <th>Naive Bayes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Real World Application</th>
+      <td>Image Classifiers</td>
+      <td>Recommendation Systems</td>
+      <td>Spam Classifiers</td>
+    </tr>
+    <tr>
+      <th>Pros</th>
+      <td>• Kernels<br>• Maximize Boundaries</td>
+      <td>• Not sensitive to outliers<br>• Handles both categorical and continuous data</td>
+      <td>• Ability to handle an extremely large number of features<br>• Performs well even with the presence of irrelevant features<br>• Simple, rarely need to tune its parameters<br>• It rarely ever overfits the data<br>• Fast training and prediction times</td>
+    </tr>
+    <tr>
+      <th>Cons</th>
+      <td>• Sensitive to outliers i.e. when target classes are overlapping</td>
+      <td>• Prone to over fitting</td>
+      <td>• Vanishing values due to multiplication of small probabilities</td>
+    </tr>
+    <tr>
+      <th>Candidacy for this data</th>
+      <td>• Ability to handle non-linear relationships.</td>
+      <td>• It can handle categorical features effectively.</td>
+      <td>• Fast but accurate classifier.</td>
+    </tr>
+  </tbody>
+</table>
 </div>
+
 </div>
 
 </div>
