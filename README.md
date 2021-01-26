@@ -1,6 +1,4 @@
-# Introduction to machine learning with TensorFlow Nanodegree
-# Supervised Learning
-## Project: Finding Donors for CharityML
+## Finding Donors for CharityML
 
 ### Install
 
